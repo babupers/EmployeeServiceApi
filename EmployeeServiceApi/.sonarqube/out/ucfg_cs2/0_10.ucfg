@@ -1,0 +1,43 @@
+
+KEmployeeServiceApi.WebApiConfig.Register(System.Web.Http.HttpConfiguration)ƒ
+yD:\MyProjects\GitHub\babupers\babupers\EmployeeServiceApi\EmployeeServiceApi\EmployeeServiceApi\App_Start\WebApiConfig.cs
+ (	"0*¬
+
+0Ü
+Ù
+ƒ
+yD:\MyProjects\GitHub\babupers\babupers\EmployeeServiceApi\EmployeeServiceApi\EmployeeServiceApi\App_Start\WebApiConfig.cs (+
+
+%0void"eSystem.Web.Http.HttpConfigurationExtensions.MapHttpAttributeRoutes(System.Web.Http.HttpConfiguration)*/"-
++System.Web.Http.HttpConfigurationExtensions*-
++
+config!System.Web.Http.HttpConfiguration‘
+Ž
+ƒ
+yD:\MyProjects\GitHub\babupers\babupers\EmployeeServiceApi\EmployeeServiceApi\EmployeeServiceApi\App_Start\WebApiConfig.cs ()
+%1#System.Web.Http.HttpRouteCollection",System.Web.Http.HttpConfiguration.Routes.get*-
++
+config!System.Web.Http.HttpConfiguration‡
+„
+ƒ
+yD:\MyProjects\GitHub\babupers\babupers\EmployeeServiceApi\EmployeeServiceApi\EmployeeServiceApi\App_Start\WebApiConfig.cs% (<$
+%2System.Web.Http.RouteParameter"__id*P*N 
+System.Web.Http.RouteParameter"*
+OptionalSystem.Web.Http.RouteParameter¤
+¡
+ƒ
+yD:\MyProjects\GitHub\babupers\babupers\EmployeeServiceApi\EmployeeServiceApi\EmployeeServiceApi\App_Start\WebApiConfig.cs ((
+%3"System.Web.Http.Routing.IHttpRoute"wSystem.Web.Http.HttpRouteCollectionExtensions.MapHttpRoute(System.Web.Http.HttpRouteCollection, string, string, object)*1"/
+-System.Web.Http.HttpRouteCollectionExtensions*+
+)
+%1#System.Web.Http.HttpRouteCollection*
+""*
+""*
+""*
+1*¡
+1"›
+ƒ
+yD:\MyProjects\GitHub\babupers\babupers\EmployeeServiceApi\EmployeeServiceApi\EmployeeServiceApi\App_Start\WebApiConfig.cs (	
+implicit return:+
+config!System.Web.Http.HttpConfigurationB#"!
+EmployeeServiceApi.WebApiConfig

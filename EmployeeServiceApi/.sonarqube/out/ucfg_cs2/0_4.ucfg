@@ -1,0 +1,62 @@
+
+8EmployeeServiceApi.WebApiApplication.Application_Start()x
+nD:\MyProjects\GitHub\babupers\babupers\EmployeeServiceApi\EmployeeServiceApi\EmployeeServiceApi\Global.asax.cs (	"0*°
+0â
+ß
+x
+nD:\MyProjects\GitHub\babupers\babupers\EmployeeServiceApi\EmployeeServiceApi\EmployeeServiceApi\Global.asax.cs (/
+
+%0void"2System.Web.Mvc.AreaRegistration.RegisterAllAreas()*#"!
+System.Web.Mvc.AreaRegistration›
+˜
+x
+nD:\MyProjects\GitHub\babupers\babupers\EmployeeServiceApi\EmployeeServiceApi\EmployeeServiceApi\Global.asax.cs (@
+
+%1void"_System.Web.Http.GlobalConfiguration.Configure(System.Action<System.Web.Http.HttpConfiguration>)*'"%
+#System.Web.Http.GlobalConfiguration*
+""ö
+ó
+x
+nD:\MyProjects\GitHub\babupers\babupers\EmployeeServiceApi\EmployeeServiceApi\EmployeeServiceApi\Global.asax.cs/ (D+
+%2%System.Web.Mvc.GlobalFilterCollection"(System.Web.Mvc.GlobalFilters.Filters.get* "
+System.Web.Mvc.GlobalFilters»
+¸
+x
+nD:\MyProjects\GitHub\babupers\babupers\EmployeeServiceApi\EmployeeServiceApi\EmployeeServiceApi\Global.asax.cs (E
+
+%3void"\EmployeeServiceApi.FilterConfig.RegisterGlobalFilters(System.Web.Mvc.GlobalFilterCollection)*#"!
+EmployeeServiceApi.FilterConfig*-
++
+%2%System.Web.Mvc.GlobalFilterCollectionô
+ñ
+x
+nD:\MyProjects\GitHub\babupers\babupers\EmployeeServiceApi\EmployeeServiceApi\EmployeeServiceApi\Global.asax.cs' (8(
+%4"System.Web.Routing.RouteCollection"(System.Web.Routing.RouteTable.Routes.get*!"
+System.Web.Routing.RouteTable¬
+©
+x
+nD:\MyProjects\GitHub\babupers\babupers\EmployeeServiceApi\EmployeeServiceApi\EmployeeServiceApi\Global.asax.cs (9
+
+%5void"QEmployeeServiceApi.RouteConfig.RegisterRoutes(System.Web.Routing.RouteCollection)*"" 
+EmployeeServiceApi.RouteConfig**
+(
+%4"System.Web.Routing.RouteCollection‡
+„
+x
+nD:\MyProjects\GitHub\babupers\babupers\EmployeeServiceApi\EmployeeServiceApi\EmployeeServiceApi\Global.asax.cs) (<.
+%6(System.Web.Optimization.BundleCollection"/System.Web.Optimization.BundleTable.Bundles.get*'"%
+#System.Web.Optimization.BundleTable»
+¸
+x
+nD:\MyProjects\GitHub\babupers\babupers\EmployeeServiceApi\EmployeeServiceApi\EmployeeServiceApi\Global.asax.cs (=
+
+%7void"YEmployeeServiceApi.BundleConfig.RegisterBundles(System.Web.Optimization.BundleCollection)*#"!
+EmployeeServiceApi.BundleConfig*0
+.
+%6(System.Web.Optimization.BundleCollection*
+1*•
+1"
+x
+nD:\MyProjects\GitHub\babupers\babupers\EmployeeServiceApi\EmployeeServiceApi\EmployeeServiceApi\Global.asax.cs (	
+implicit returnB(&
+$EmployeeServiceApi.WebApiApplication
