@@ -24,9 +24,10 @@ namespace EmployeeServiceApi.Tests.Controllers
 
             // Assert
             Assert.IsNotNull(result);
-            Assert.AreEqual(2, result.Count());
+            Assert.AreEqual(3, result.Count());
             Assert.AreEqual("value1", result.ElementAt(0));
             Assert.AreEqual("value2", result.ElementAt(1));
+            Assert.AreEqual("value3", result.ElementAt(2));
         }
 
         [TestMethod]
@@ -39,7 +40,7 @@ namespace EmployeeServiceApi.Tests.Controllers
             string result = controller.Get(5);
 
             // Assert
-            Assert.AreEqual("value", result);
+            Assert.AreEqual("value1", result);
         }
 
         [TestMethod]
