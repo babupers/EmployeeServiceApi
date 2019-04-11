@@ -1,0 +1,7 @@
+organization=babupers-github
+projectKey=babupers_EmployeeServiceApi
+serverUrl=https://sonarcloud.io
+serverVersion=7.8.0.23279
+dashboardUrl=https://sonarcloud.io/dashboard?id=babupers_EmployeeServiceApi
+ceTaskId=AWoL1KzobZ-4oYCt15Z3
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWoL1KzobZ-4oYCt15Z3

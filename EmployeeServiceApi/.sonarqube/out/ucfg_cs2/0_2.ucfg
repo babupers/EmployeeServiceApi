@@ -1,0 +1,36 @@
+
+QEmployeeServiceApi.RouteConfig.RegisterRoutes(System.Web.Routing.RouteCollection)‚
+xD:\MyProjects\GitHub\babupers\babupers\EmployeeServiceApi\EmployeeServiceApi\EmployeeServiceApi\App_Start\RouteConfig.cs (	"0*÷
+0Ü
+Ù
+‚
+xD:\MyProjects\GitHub\babupers\babupers\EmployeeServiceApi\EmployeeServiceApi\EmployeeServiceApi\App_Start\RouteConfig.cs (<
+
+%0void"`System.Web.Mvc.RouteCollectionExtensions.IgnoreRoute(System.Web.Routing.RouteCollection, string)*,"*
+(System.Web.Mvc.RouteCollectionExtensions*.
+,
+routes"System.Web.Routing.RouteCollection*
+""ý
+ú
+‚
+xD:\MyProjects\GitHub\babupers\babupers\EmployeeServiceApi\EmployeeServiceApi\EmployeeServiceApi\App_Start\RouteConfig.csL (a!
+%1System.Web.Mvc.UrlParameter"__id*J*H
+System.Web.Mvc.UrlParameter"'
+OptionalSystem.Web.Mvc.UrlParameter
+Š
+‚
+xD:\MyProjects\GitHub\babupers\babupers\EmployeeServiceApi\EmployeeServiceApi\EmployeeServiceApi\App_Start\RouteConfig.cs (
+%2System.Web.Routing.Route"mSystem.Web.Mvc.RouteCollectionExtensions.MapRoute(System.Web.Routing.RouteCollection, string, string, object)*,"*
+(System.Web.Mvc.RouteCollectionExtensions*.
+,
+routes"System.Web.Routing.RouteCollection*
+""*
+""*
+""*
+1* 
+1"š
+‚
+xD:\MyProjects\GitHub\babupers\babupers\EmployeeServiceApi\EmployeeServiceApi\EmployeeServiceApi\App_Start\RouteConfig.cs (	
+implicit return:,
+routes"System.Web.Routing.RouteCollectionB"" 
+EmployeeServiceApi.RouteConfig

@@ -1,0 +1,36 @@
+
+\EmployeeServiceApi.FilterConfig.RegisterGlobalFilters(System.Web.Mvc.GlobalFilterCollection)ƒ
+yD:\MyProjects\GitHub\babupers\babupers\EmployeeServiceApi\EmployeeServiceApi\EmployeeServiceApi\App_Start\FilterConfig.cs (	"0*‘
+0ÙÖ
+ƒ
+yD:\MyProjects\GitHub\babupers\babupers\EmployeeServiceApi\EmployeeServiceApi\EmployeeServiceApi\App_Start\FilterConfig.cs
+ 
+(2)
+%0#System.Web.Mvc.HandleErrorAttribute"#System.Web.Mvc.HandleErrorAttributeþ
+û
+ƒ
+yD:\MyProjects\GitHub\babupers\babupers\EmployeeServiceApi\EmployeeServiceApi\EmployeeServiceApi\App_Start\FilterConfig.cs
+ 
+(0
+
+%1void":System.Web.Mvc.HandleErrorAttribute.HandleErrorAttribute()*+
+)
+%0#System.Web.Mvc.HandleErrorAttribute©
+¦
+ƒ
+yD:\MyProjects\GitHub\babupers\babupers\EmployeeServiceApi\EmployeeServiceApi\EmployeeServiceApi\App_Start\FilterConfig.cs
+ 
+(3
+
+%2void"1System.Web.Mvc.GlobalFilterCollection.Add(object)*2
+0
+filters%System.Web.Mvc.GlobalFilterCollection*+
+)
+%0#System.Web.Mvc.HandleErrorAttribute*
+1*¡
+1"›
+ƒ
+yD:\MyProjects\GitHub\babupers\babupers\EmployeeServiceApi\EmployeeServiceApi\EmployeeServiceApi\App_Start\FilterConfig.cs (	
+implicit return:0
+filters%System.Web.Mvc.GlobalFilterCollectionB#"!
+EmployeeServiceApi.FilterConfig

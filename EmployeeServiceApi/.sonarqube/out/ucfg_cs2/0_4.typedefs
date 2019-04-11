@@ -1,0 +1,8 @@
+º
+1EmployeeServiceApi.Controllers.EmployeeControllerSystem.Web.Http.ApiControllerobject@
+Get()7EmployeeServiceApi.Controllers.EmployeeController.Get()F
+Get(int):EmployeeServiceApi.Controllers.EmployeeController.Get(int)N
+Post(string)>EmployeeServiceApi.Controllers.EmployeeController.Post(string)V
+Put(int, string)BEmployeeServiceApi.Controllers.EmployeeController.Put(int, string)L
+Delete(int)=EmployeeServiceApi.Controllers.EmployeeController.Delete(int)^
+EmployeeController()FEmployeeServiceApi.Controllers.EmployeeController.EmployeeController()
