@@ -24,7 +24,7 @@ namespace EmployeeServiceApi.Tests.Controllers
 
             // Assert
             Assert.IsNotNull(result);
-            Assert.AreEqual(3, result.Count());
+            Assert.AreEqual(4, result.Count());
             Assert.AreEqual("value1", result.ElementAt(0));
             Assert.AreEqual("value2", result.ElementAt(1));
             Assert.AreEqual("value3", result.ElementAt(2));
