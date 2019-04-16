@@ -18,16 +18,13 @@ namespace EmployeeServiceApi.Tests.Controllers
         {
             // Arrange
             EmployeeController controller = new EmployeeController();
-
+            
             // Act
             IEnumerable<string> result = controller.Get();
 
             // Assert
             Assert.IsNotNull(result);
-            Assert.AreEqual(4, result.Count());
-            Assert.AreEqual("value1", result.ElementAt(0));
-            Assert.AreEqual("value2", result.ElementAt(1));
-            Assert.AreEqual("value3", result.ElementAt(2));
+            Assert.AreEqual(result.Count(), EmployeeController.values.Count());
         }
 
         [TestMethod]
@@ -37,7 +34,7 @@ namespace EmployeeServiceApi.Tests.Controllers
             EmployeeController controller = new EmployeeController();
 
             // Act
-            string result = controller.Get(5);
+            string result = controller.Get(0);
 
             // Assert
             Assert.AreEqual("value1", result);
@@ -53,6 +50,7 @@ namespace EmployeeServiceApi.Tests.Controllers
             controller.Post("value");
 
             // Assert
+            Assert.AreEqual(EmployeeController.values[EmployeeController.values.Count() - 1], "value");
         }
 
         [TestMethod]
@@ -62,21 +60,24 @@ namespace EmployeeServiceApi.Tests.Controllers
             EmployeeController controller = new EmployeeController();
 
             // Act
-            controller.Put(5, "value");
+            controller.Put(0, "new value");
 
             // Assert
+            Assert.AreEqual(EmployeeController.values[0], "new value");
         }
 
         [TestMethod]
         public void Delete()
         {
-            // Arrange
+            //Arrange
             EmployeeController controller = new EmployeeController();
 
-            // Act
-            controller.Delete(5);
+            //Act
+            controller.Delete(0);
 
-            // Assert
+            //Assert
+            Assert.AreNotEqual("value1", EmployeeController.values[0]);
         }
     }
 }
+
