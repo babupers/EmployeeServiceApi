@@ -16,31 +16,30 @@ namespace EmployeeServiceApi.Controllers
             {
                 return values;
             }
-            set
-            { values = value; }
+            
         }
         // GET api/values
         public IEnumerable<string> Get()
         {
-            return values;
+            return Values;
         }
 
         // GET api/values/5
         public string Get(int id)
         {
-            return values[id];
+            return Values[id];
         }
 
         // POST api/values
         public void Post([FromBody]string value)
         {
-            values.Add(value);
+            Values.Add(value);
         }
 
         // PUT api/values/5
         public void Put(int id, [FromBody]string value)
         {
-            if (values.Count() > id)
+            if (Values.Count > id)
             {
                 values[id] = value;
             }
@@ -50,7 +49,7 @@ namespace EmployeeServiceApi.Controllers
         // DELETE api/values/5
         public void Delete(int id)
         {
-            values.RemoveAt(id);
+            Values.RemoveAt(id);
         }
     }
 }
