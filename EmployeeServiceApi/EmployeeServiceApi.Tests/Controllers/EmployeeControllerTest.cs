@@ -24,7 +24,7 @@ namespace EmployeeServiceApi.Tests.Controllers
 
             // Assert
             Assert.IsNotNull(result);
-            Assert.AreEqual(result.Count(), EmployeeController.values.Count());
+            Assert.AreEqual(result.Count(), EmployeeController.Values.Count());
         }
 
         [TestMethod]
@@ -50,7 +50,7 @@ namespace EmployeeServiceApi.Tests.Controllers
             controller.Post("value");
 
             // Assert
-            Assert.AreEqual(EmployeeController.values[EmployeeController.values.Count() - 1], "value");
+            Assert.AreEqual(EmployeeController.Values[EmployeeController.Values.Count() - 1], "value");
         }
 
         [TestMethod]
@@ -63,7 +63,7 @@ namespace EmployeeServiceApi.Tests.Controllers
             controller.Put(0, "new value");
 
             // Assert
-            Assert.AreEqual(EmployeeController.values[0], "new value");
+            Assert.AreEqual(EmployeeController.Values[0], "new value");
         }
 
         [TestMethod]
@@ -76,7 +76,7 @@ namespace EmployeeServiceApi.Tests.Controllers
             controller.Delete(0);
 
             //Assert
-            Assert.AreNotEqual("value1", EmployeeController.values[0]);
+            Assert.AreNotEqual("value1", EmployeeController.Values[0]);
         }
     }
 }
