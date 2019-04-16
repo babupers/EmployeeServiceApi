@@ -9,7 +9,16 @@ namespace EmployeeServiceApi.Controllers
 {
     public class EmployeeController : ApiController
     {
-        public static List<string> values = new List<string>() { "value1", "value2"};
+        static List<string> values = new List<string>() { "value1", "value2" };
+        public static List<string> Values
+        {
+            get
+            {
+                return values;
+            }
+            set
+            { values = value; }
+        }
         // GET api/values
         public IEnumerable<string> Get()
         {
@@ -31,11 +40,11 @@ namespace EmployeeServiceApi.Controllers
         // PUT api/values/5
         public void Put(int id, [FromBody]string value)
         {
-            if(values.Count() > id)
+            if (values.Count() > id)
             {
                 values[id] = value;
             }
-            
+
         }
 
         // DELETE api/values/5
